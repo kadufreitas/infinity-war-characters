@@ -1,0 +1,32 @@
+page-character {
+  .toolbar-background {
+    background: #000;
+  }
+
+  .toolbar-title {
+    color: white;
+  }
+
+  .bar-button-clear,
+  .bar-button-default.bar-button-clear,
+  .bar-button-clear-clear {
+    color: white !important;
+  }
+
+  .bar-button {
+    font-size: 2.4rem !important;
+  }
+
+  .bar-buttons-md {
+    order: 1 !important;
+  }
+
+  .toolbar-content-md {
+    order: 2 !important;
+    text-align: center;
+  }
+
+  .bar-buttons-md[end] {
+    order: 3 !important;
+  }
+}
